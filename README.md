@@ -1,1 +1,1 @@
-README for blutprint
+README for blueprint
