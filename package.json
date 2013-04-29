@@ -1,0 +1,19 @@
+{
+  "name": "blueprint",
+  "version": "0.0.0",
+  "main": "./lib/serious-calculations",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nirped/blueprint.git"
+  },
+  "scripts": {
+    "test": "vows --spec"
+  },
+  "engines": {
+    "node": ">= 0.4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vows": "0.7.x"
+  }
+}
