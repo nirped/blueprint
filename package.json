@@ -6,14 +6,16 @@
     "type": "git",
     "url": "git@github.com:nirped/blueprint.git"
   },
-  "scripts": {
-    "test": "vows --spec"
-  },
   "engines": {
-    "node": ">= 0.4"
+    "node": ">= 0.10"
   },
   "dependencies": {},
   "devDependencies": {
-    "vows": "0.7.x"
-  }
+    "mocha": "1.9.0",
+    "should": "*"
+  },
+ "optionalDependencies": {},
+"scripts": {
+"test": "make test-all"
+}
 }
