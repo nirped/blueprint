@@ -9,10 +9,18 @@
   "engines": {
     "node": ">= 0.10"
   },
-  "dependencies": {},
+  "dependencies": {
+    "zerorpc": "git://github.com/nirped/zerorpc-node.git",
+    "zkplus": "*",
+    "zookeeper": "git://github.com/yunong/node-zookeeper.git",
+    "config": "*",
+    "monitor": "*",
+    "node_monitor": "*"
+  },
   "devDependencies": {
     "mocha": "1.9.0",
-    "should": "*"
+    "chai": "*",
+    "coffee-script": "latest"
   },
  "optionalDependencies": {},
 "scripts": {
