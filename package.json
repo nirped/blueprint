@@ -11,11 +11,8 @@
   },
   "dependencies": {
     "zerorpc": "git://github.com/nirped/zerorpc-node.git",
-    "zkplus": "*",
-    "zookeeper": "git://github.com/yunong/node-zookeeper.git",
-    "config": "*",
-    "monitor": "*",
-    "node_monitor": "*"
+    "node-zookeeper-client": "*",
+    "node-dogstatsd": "*" 
   },
   "devDependencies": {
     "mocha": "1.9.0",
